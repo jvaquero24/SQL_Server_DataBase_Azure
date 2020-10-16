@@ -3,7 +3,7 @@ data "azurerm_resource_group" "RG" {
 }
 
 resource "azurerm_mysql_server" "ASS" {
-  name                = var.name.mysqlserver
+  name                = var.name_mysqlserver
   location            = var.location
   resource_group_name = data.azurerm_resource_group.RG.name
 
