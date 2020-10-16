@@ -9,9 +9,6 @@ variable "location" {
 variable "sqlserver_name" {
   type        = string
 }
-variable "version" {
-  type        = string
-}
 variable "admin_login" {
   type        = string
 }
