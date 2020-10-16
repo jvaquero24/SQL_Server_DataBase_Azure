@@ -21,7 +21,3 @@ variable "sqldatabase_name" {
 variable "serversqlname" {
   type        = string
 }
-
-
-
-resource_group_name_dbs
