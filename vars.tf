@@ -6,28 +6,21 @@ variable "location" {
 }
 
 
-
-variable "name_mysqlserver" {
-  type        = string
-}
-variable "administrator_login" {
-  type        = string
-}
-variable "administrator_login_password" {
-  type        = string
-}
-variable "sku_name" {
-  type        = string
-}
-variable "storage_mb" {
+variable "sqlserver_name" {
   type        = string
 }
 variable "version" {
   type        = string
 }
-variable "auto_grow_enabled" {
+variable "admin_login" {
   type        = string
 }
-variable "name_sqldatabase" {
+variable "admin_pass" {
+  type        = string
+}
+variable "sqldatabase_name" {
+  type        = string
+}
+variable "serversqlname" {
   type        = string
 }
