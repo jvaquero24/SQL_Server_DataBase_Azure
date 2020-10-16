@@ -1,4 +1,4 @@
-variable "resource_group_name" {
+variable "resource_group_name_dbs" {
   type        = string
 }
 variable "location" {
@@ -21,3 +21,7 @@ variable "sqldatabase_name" {
 variable "serversqlname" {
   type        = string
 }
+
+
+
+resource_group_name_dbs
