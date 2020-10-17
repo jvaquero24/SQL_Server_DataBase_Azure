@@ -16,5 +16,7 @@ resource "azurerm_sql_database" "SQLDATABASE" {
   name                = var.sqldatabase_name
   location            = var.location
   resource_group_name = data.azurerm_resource_group.RG.name
-  server_name         = var.serversqlname
+  #server_name         = var.serversqlname
+  server_name         = azurerm_sql_server.example.name
+  
  }
