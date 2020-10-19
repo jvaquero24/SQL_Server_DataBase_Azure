@@ -18,6 +18,3 @@ variable "admin_pass" {
 variable "sqldatabase_name" {
   type        = string
 }
-#variable "serversqlname" {
-#  type        = string
-#}
